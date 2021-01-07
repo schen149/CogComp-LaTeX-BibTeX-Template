@@ -5,7 +5,7 @@
 
 \begin{document}
 Last updated: \textit{Nov. 2020}\\\\
-When drafting your paper, we recommend using the following .bib files to manage your citations. 
+When drafting your paper, we recommend using the following .bib files to manage your citations. \cite{DCLT19} 
 \begin{enumerate}
     \item \texttt{ccg.bib} contains all publications from our group to date.
     \item \texttt{cited.bib} contains (almost) all citations we have made in our publications. 
@@ -14,16 +14,22 @@ When drafting your paper, we recommend using the following .bib files to manage 
 \end{enumerate}
 
 If you need to include a new bibitem that is not in any of these, please add it to cited.bib, but {\bf only after your change the style of the bib item to the ccg.bib style}
+(If you are not sure about it, check the description of the style at the top of both ccg.bib and cited.bib)
 
 Changing the style mostly requires you to change the bibitem key. If you are not sure what the key style is, please consult the instructions at the top of the ccg.bib file.
 
-
+We have split the cited.bib by time periods. e.g. 2010-now, 2000-2009, 1990-1999, etc, to allow for direct edits in the overleaf. \\\\
 %\textbf{After your paper gets published:} 
 %Please merge your \texttt{new.bib} to \texttt{cited.bib}, by following steps specified in \href{https://github.com/CogComp/ccg-bibfiles}{\color{blue} github.com/CogComp/ccg-bibfiles}.  \\\\
 For more details, please also refer to the \href{ https://docs.google.com/document/d/1I33aIJXMzIIaZQDHZzdpDEink5fKztU_VKFlbj-KzhA/edit#heading=h.k9gb5efodg4w}{\color{blue} bib file section of the CogComp tutorial. } \\
 
+Contact Sihao if you are not sure how to proceed with this. 
+
+% Replace the following line in the template provided by conference
+\bibliography{ccg,cited_10s,cited_00s, cited_90s, cited_pre90s}
+\bibliographystyle{abbrv}
 \end{document}
 
 % ----- TEMPLATE START ------
 % Replace the following line in the template provided by conference
-\bibliography{ccg,cited}
+% \bibliography{ccg,cited}
